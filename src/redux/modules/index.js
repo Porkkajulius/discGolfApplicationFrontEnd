@@ -3,6 +3,5 @@ import userDiscReducer from './userDisc';
 import discReducer from './disc';
 
 export default combineReducers({
-    userDiscs: userDiscReducer,
-    disc: discReducer
+    userDiscs: userDiscReducer
 });
