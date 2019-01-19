@@ -5,7 +5,7 @@ const FETCH_USER_DISCS = 'USERDISC/FETCH_USER_DISCS';
 */
 
 //
-// Fetches user discs
+// Fetches user discsnp
 export const fetchUserDiscs = ()=> dispatch =>{
     console.log('Fetching user discs in redux action')
     fetch('http://localhost:8080/api/get/discs/user')
